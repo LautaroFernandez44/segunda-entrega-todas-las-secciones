@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+nav{
+    border-radius: 5px;
+}
+.navbar{
+    position: absolute;
+    width: 650px;
+    height: 60px;
+    background-color: #cbcbcb;
+    margin-top: 3%;
+    right: 550px;
+
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+a:hover{
+    color: #fff
+}
+
+.s1{
+    left: 450px;
+    top: 200px;
+    height: 530px;
+    background-color: #cbcbcb;
+    width: 350px;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+
+.dev1{
+    position: relative;
+    padding: 50px;
+    left: 12.5%;
+    width: fit-content;
+    background: #BABABA;
+    font-size: 30px;
+}
+
+.head2{
+    position: relative;
+    padding: 11px;
+    margin: 3px;
+    left: 30px;
+}
+
+
+.s2{
+    position: absolute;
+    background-color: #BABABA;
+    width: 250px;
+    height: 250px;
+    left: 55%;
+    top: 21%;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.s2 legend{
+
+    position: relative;
+    top: 15px;
+}
+    
+.control{
+    position: relative;
+    border-radius: 5px;
+    top: 50px;
+    height: 50px;
+    width: 100px;
+}
+
+.s3 {
+    position: absolute;
+    background-color: #BABABA;
+    width: 250px;
+    height: 250px;
+    left: 55%;
+    top: 51%;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.leg1{
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+}
+
+.control2{
+    position: relative;
+    border-radius: 5px;
+    top: 50px;
+    height: 50px;
+    width: 100px;
+
+}
+
+footer{
+    position: absolute;
+    display: inline;
+    color: #000;
+
+}
+
+footer p{
+    top: 900px;
+    left: 1676px;
+    position: relative;
+    padding: 100px;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+button{
+    position: relative;
+    top: 50px;
+    width: 70px;
+    height: 40px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: #e5e5e5;
+}
+
+
+.navbar{
+    position: absolute;
+    width: 650px;
+    height: 60px;
+    background-color: #cbcbcb;
+    margin-top: 3%;
+    right: 550px;
+
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+a:hover{
+    color: #fff
+}
+
+nav{
+    border-radius: 5px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+h1{
+    top: 150px;
+    left: 800px;
+    padding: 10px;
+    padding-left: 25px;
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    background-color: #d9d9d9;
+    display: inline;
+    border-radius: 10%;
+}
+
+#box1{
+    padding: 50px;
+    padding-top: 80px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 250px;
+    top: 300px;
+    border-radius: 10%;
+    background: #D9D9D9;
+}
+
+#box2{
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 90px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 750px;
+    top: 300px;
+    border-radius: 10%;
+    background: #D9D9D9;
+
+
+}
+
+#box3{
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 70px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1250px;
+    top: 300px;
+    border-radius: 10%;
+    background: #D9D9D9;
+
+}
+
+#box4{
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 70px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 1250px;
+    top: 600px;
+    border-radius: 10%;
+    background: #D9D9D9;
+
+}
+
+#box5{
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 70px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 750px;
+    top: 600px;
+    border-radius: 10%;
+    background: #D9D9D9;
+
+}
+
+#box6{
+    padding: 50px;
+    padding-top: 80px;
+    padding-left: 70px;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    left: 250px;
+    top: 600px;
+    border-radius: 10%;
+    background: #D9D9D9;
+
+}
+
+
+
+
+
+
+footer{
+    position: absolute;
+    display: inline;
+    color: #000;
+
+}
+
+footer p{
+    top: 900px;
+    left: 1676px;
+    position: relative;
+    padding: 100px;
+    margin: 0;
+    padding: 0;
+}
+    
+    
+    
+

@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    border-radius: 5px;
+}
+body{
+    background-color: #4c4c4c;
+}
+
+.navbar{
+    position: absolute;
+    width: 650px;
+    height: 60px;
+    background-color: #cbcbcb;
+    margin-top: 3%;
+    right: 550px;
+
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 12px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+a:hover{
+    color: #fff
+}
+
+img{
+    position: absolute;
+    left: 250px;
+    top: 275px;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid #000000
+}
+
+h2{
+    position: absolute;
+    font-family: 'Island Moments';
+    font-size: 85px;
+    top: 650px;
+    left: 200px;
+}
+
+
+#sec1{
+    width: 500px;
+    height: 400px;
+    background-color: #d9d9d9;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#sec1 h1 {
+    max-width:  max-content;
+    font-size: 45px;
+    position: relative;
+    top: -25px;
+    left: 80px;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    background: #736F6F;
+    border-radius: 4px;
+    margin-bottom: 35px;
+    border: 1px solid #000000;
+    font-size: 18px;
+    
+}
+
+.controls::placeholder {
+    color: #fff;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 5px;
+}
+
+footer{
+    position: absolute;
+    display: inline;
+    color: #000;
+
+}
+
+footer p{
+    top: 900px;
+    left: 1676px;
+    position: relative;
+    padding: 100px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+    
+
